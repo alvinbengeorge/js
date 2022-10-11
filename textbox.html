@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Textbox</title>
+    <script>
+        var textBox = document.getElementById("textbox")
+        function click() {
+            alert("execute");
+            var str = textBox.getAttribute("value");
+            if (str == null) {
+                str = "Had trouble reading the value"
+            }
+            document.getElementById("output").innerHTML= str
+        }
+    </script>
+</head>
+<body>
+    <h1>Simple text</h1>
+    <form>
+        <label>Put text here:</label><br>
+        <input type="text" id="textbox">
+        <button onclick="click()">Send</button>
+    </form>
+    <h3>Output:</h3>
+    <p>Your output comes here</p>
+</body>
+</html>
