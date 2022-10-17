@@ -1,3 +1,5 @@
+import {n1,n2} from "./data.js";
+
 var a = "hello";
 console.log(a);
 a = 10;
@@ -23,6 +25,7 @@ for (i = 0; i < s.length; i++) {
 
 const vowels = ['a', 'e', 'i', 'o', 'u']
 let num = 0
+// same in a while loop
 while (num < s.length) {
     if (vowels.includes(s[num])) {
         console.log(s[num])
@@ -31,3 +34,9 @@ while (num < s.length) {
     num++;
 }
 
+const arrow = () => { console.log("This is an arrow function") }
+arrow()
+
+// importing
+console.log(n1)
+console.log(n2)
