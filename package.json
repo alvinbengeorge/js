@@ -1,0 +1,23 @@
+{
+  "name": "javascriptbasics",
+  "version": "1.0.0",
+  "description": "This will have all of my JavaScript files, or atleast most ;)",
+  "main": "array_manipulation.js",
+  "scripts": {
+    "test": "node helloWorld.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinbengeorge/js.git"
+  },
+  "author": "AlvinBenGeorge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvinbengeorge/js/issues"
+  },
+  "homepage": "https://github.com/alvinbengeorge/js#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.0"
+  }
+}
