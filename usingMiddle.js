@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 app.use(
     function (req, res, next) {
-        console.log(req.headers);
+        console.log(req.url);
         next();
         console.log("Execution completed")
     }
@@ -13,6 +13,10 @@ app.use(
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
+});
+
+app.get("/test", (req, res) => {
+    res.send({"message": "test"});
 });
 
 app.listen(3000, () => {
