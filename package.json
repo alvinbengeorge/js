@@ -1,5 +1,25 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
     "node-fetch": "^3.3.0"
-  }
+  },
+  "name": "js",
+  "description": "Time to study some JS",
+  "version": "1.0.0",
+  "main": "usingMiddle.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinbengeorge/js.git"
+  },
+  "author": "Alvin",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alvinbengeorge/js/issues"
+  },
+  "homepage": "https://github.com/alvinbengeorge/js#readme"
 }
