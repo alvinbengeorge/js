@@ -1,15 +1,15 @@
 {
   "dependencies": {
     "express": "^4.18.2",
-    "node-fetch": "^3.3.0"
+    "node-fetch": "^3.3.0",
+    "typescript": "^5.0.4"
   },
   "name": "js",
   "description": "Time to study some JS",
   "version": "1.0.0",
   "main": "usingMiddle.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "node index.js"
+    "test": ""
   },
   "repository": {
     "type": "git",
