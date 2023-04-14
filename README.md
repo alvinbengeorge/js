@@ -1,2 +1,1 @@
-# js
-Time to study some JS
+# `Svelte, JS and TS`
